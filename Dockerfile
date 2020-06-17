@@ -1,7 +1,8 @@
  
-FROM rocker/hadleyverse:latest
+FROM rocker/tidyverse:latest
 # This file is copied from MAINTAINER Jon Zelner jzelner@gmail.com
 # Aim of this file is for study automated build by github and dockerhub.
+# Change: At first, hadlyverse was expired, then tidyverse is enrolled.
 
 ## Mostly pirated from jrnold/docker-stan
 
